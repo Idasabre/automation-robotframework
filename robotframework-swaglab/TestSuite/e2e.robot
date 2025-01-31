@@ -1,8 +1,8 @@
 *** Settings ***
-Resource    ../Resources/pageObjects/loginPage.robot
-Resource    ../Resources/pageObjects/productPage.robot
-Resource    ../Resources/pageObjects/cartPage.robot
-Resource    ../Resources/pageObjects/checkoutPage.robot
+Resource    ../PageObjects/loginPage.robot
+Resource    ../PageObjects/productPage.robot
+Resource    ../PageObjects/cartPage.robot
+Resource    ../PageObjects/checkoutPage.robot
 Resource    ../Resources/common.robot
 Resource    ../Resources/variables.robot
 Library     JSONLibrary
